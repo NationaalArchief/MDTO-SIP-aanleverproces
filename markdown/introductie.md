@@ -1,5 +1,3 @@
 # Introductie
 
-Beschrijf in deze sectie de context en het doel van dit kennisproduct. Leg uit waarom dit document is opgesteld, voor wie het bedoeld is en welk probleem of vraagstuk centraal staat.
-
-Geef daarnaast een korte toelichting op de inhoud en opbouw van het document, zodat de lezer weet wat hij of zij kan verwachten.
+Het proces en de voorwaarden voor het aanleveren van digitale informatieobjecten van een bronsysteem naar een doelsysteem, zoals een e-depot van een archiefinstelling, staan centraal in deze beschrijving. Hierbij speelt het Submission Information Package (SIP) een belangrijke rol, omdat hierin zowel informatieobjecten, bestanden als metagegevens worden opgenomen. De documentatie behandelt de verschillende vormen van aanlevering – deels geautomatiseerd en vereenvoudigd geautomatiseerd – en beschrijft de technische, organisatorische en beveiligingsvoorwaarden waaraan zowel de aanleverende als ontvangende partij moeten voldoen. Daarnaast wordt ingegaan op onderwerpen zoals exportformaten, integriteitscontroles, vervolgexporten, berichtenservices en de rol van de pakbon bij een betrouwbare en controleerbare overdracht van archiefinformatie.

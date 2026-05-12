@@ -1,6 +1,6 @@
 # Voorwaarden voor aanlevering
 
-## Bronsysteem
+## Voorwaarden bronsysteem
 Voor het bronsysteem gelden de volgende voorwaarden:
 
 * Het bronsysteem moet informatieobjecten en metagegevens bevatten.
@@ -9,7 +9,7 @@ Voor het bronsysteem gelden de volgende voorwaarden:
 * Het bronsysteem kan alle, ook niet MDTO compliant metagegevens aanleveren aan het doelsysteem. 
 * In een aanlevering van een bronsysteem kunnen ook bestanden meegeleverd worden. 
 
-## Export bronsysteem
+## Voorwaarden export bronsysteem
 De archiefvormer moet in staat zijn om een export te maken uit het bronsysteem, in de vorm van een SIP. De export voldoet aan de eisen die gesteld worden aan de SIP in de MDTO standaard. 
 Bij overbrenging bestaat de export uit het bronsysteem uit niet meer te wijzigen ’bevroren’ informatieobjecten. Voor deze informatieobjecten en bestanden is sprake van een verplaatsing (move). De informatieobjecten kunnen soms deel uitmaken van een hiërarchische structuur die in het bronsysteem aanwezig moet blijven. In dat geval worden de metadata van de bovenliggende structuur gekopieerd en meegeleverd in de export. Dit doet zich bijvoorbeeld voor wanneer een export wordt gemaakt van een reeks afgesloten zaakdossiers van een zaaktype dat nog actief is.
 
@@ -32,14 +32,14 @@ Voor het doelsysteem gelden de volgende voorwaarden:
 * Het doelsysteem kan alle, ook niet MDTO compliant metagegevens verwerken. 
   
 ## Voorwaarden pakbon
-De ontvangende partij moet van elke aangeleverde SIP kunnen vaststellen van wie deze afkomstig is en wat de inhoud is. Bij de aanlevering van de export in een SIP levert de aanleverende organisatie daarom een zogenoemde pakbon mee. De inhoud van deze pakbon is beschreven in de module ‘Specificatie Submission Information Package (SIP)’.
+De ontvangende partij moet van elke aangeleverde SIP kunnen vaststellen van wie deze afkomstig is en wat de inhoud is. Bij de aanlevering van de export in een SIP levert de aanleverende organisatie daarom een zogenoemde pakbon mee. De inhoud van deze [pakbon](https://nationaalarchief.github.io/MDTO-SIP-specificatie/#pakbon) is beschreven in de module [‘Specificatie Submission Information Package (SIP)’](https://nationaalarchief.github.io/MDTO-SIP-specificatie/).
 Het formaat van aanlevering van de pakbon spreekt u af met uw contactpersoon bij de ontvangende partij. Het formaat kan daarmee verschillen van een op .xml of JSON gebaseerd bericht tot een e-mail.
 
 ## Aggregatieniveaus
 In een aanlevering verwijst elk informatieobject naar het bovenliggende en onderliggende informatieobject. Elke aanlevering kent in ieder geval één aggregatieniveau.  Er is bij elke aanlevering een verwijzing opgenomen naar een bovenliggend aggregatieniveau in het doelsysteem. Deze wordt door de ontvangende partij vastgesteld en doorgegeven aan de aanleverende partij.  De aanleverende partij kan het bovenliggende aggregatieniveau enkel als relatie meegeven in de SIP bij de daaronder liggende informatieobjecten. In de pakbon moet een verwijzing naar het toplevel informatieobject zijn opgenomen.
 
 ## Vervolgexporten
-Vervolgexporten zijn toevoegingen aan een bestaande collectie in het doelsysteem. Deze moeten voldoen aan alles wat hiervoor beschreven is voor een initiële export. Een vervolgexport bevat alleen informatieobjecten en bestanden die niet al in een voorgaande export naar het doelsysteem zijn verzonden, tenzij anders afgesproken. (Zie voorwaarden export bronsysteem)
+Vervolgexporten zijn toevoegingen aan een bestaande collectie in het doelsysteem. Deze moeten voldoen aan alles wat hiervoor beschreven is voor een initiële export. Een vervolgexport bevat alleen informatieobjecten en bestanden die niet al in een voorgaande export naar het doelsysteem zijn verzonden, tenzij anders afgesproken. (Zie [voorwaarden export bronsysteem](#voorwaarden-voor-aanlevering))
 
 ## Wijze van verzending en bestemming
 Voor de aanlevering wordt gebruik gemaakt van een geautomatiseerde, veilige verbinding, zoals bijvoorbeeld FTPS. Op welke wijze u de export verzendt naar een doelsysteem, spreekt u af met uw contactpersoon bij de ontvangende partij.

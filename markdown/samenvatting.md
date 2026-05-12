@@ -1,10 +1,1 @@
-In deze sectie geef je een beknopt overzicht van de belangrijkste inhoud van dit document. Beschrijf in hoofdlijnen wat het doel is, welke inzichten of resultaten centraal staan en wat de lezer moet onthouden.
-
-Houd de samenvatting kort en krachtig, zodat deze snel te lezen is en een goed beeld geeft van de rest van het document.
-
-**Wat opnemen in de samenvatting**
-
-- Het doel van het kennisproduct
-- De belangrijkste onderwerpen of thema’s
-- Belangrijke conclusies of inzichten
-- Eventuele aanbevelingen
+Deze documentatie beschrijft het proces en de voorwaarden voor het aanleveren van digitale informatieobjecten van een bronsysteem naar een doelsysteem via een Submission Information Package (SIP). Hierbij worden zowel een deels geautomatiseerd als een vereenvoudigd aanleverproces toegelicht, inclusief controles op integriteit, ontvangstbevestigingen en foutafhandeling. Daarnaast worden de eisen aan bron- en doelsystemen, de opbouw van exporten volgens de MDTO-standaard en het gebruik van pakbonnen en berichtenservices beschreven. Ook komen onderwerpen zoals aggregatieniveaus, vervolgexporten, veilige verzending, bestandsformaten en controles op volledigheid en integriteit aan bod, met als doel een betrouwbare en duurzame overdracht van archiefinformatie te waarborgen.
